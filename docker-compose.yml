@@ -4,4 +4,4 @@ services:
   nginx:
     image: nginx
     ports:
-      - '8000:80'
+      - "${NGINX_80}:80"
